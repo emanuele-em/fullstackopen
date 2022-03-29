@@ -1,0 +1,10 @@
+browser->server: https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note right of server:
+post contain json encode dat
+end note
+
+server-->browser: status-code 201
+
+note over browser:
+browser render the page locally and avoid to request other files
+end note
