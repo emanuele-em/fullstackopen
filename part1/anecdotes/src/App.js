@@ -27,7 +27,6 @@ const App = () => {
     let copy = []
     copy = [...points]
     copy[selected] += 1
-    console.log(max)
     setPoints(copy)
   }
 
